@@ -1,6 +1,6 @@
 <template>
   <div class="cart">
-    <h1>Carts</h1>
+    <h1 id="cart-title">Carts title</h1>
     <div class="product-wrapper">
         <table>
           <tbody>
