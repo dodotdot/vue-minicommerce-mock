@@ -43,7 +43,7 @@
                 <h5>Rp.100.000</h5>
               </td>
               <td>
-                  <div>hapus</div>
+                  <div @click="removeItem()">hapus</div>
               </td>
             </tr>
           </tbody>
@@ -101,6 +101,10 @@ export default {
   methods: {
     checkout() {
       return this.$router.push('/checkout')
+    },
+    removeItem() {
+      // Todo: Action remove state
+      console.log('hapuss')
     }
   }
 }

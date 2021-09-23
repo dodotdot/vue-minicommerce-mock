@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <ProductList msg="Products List Title"></ProductList>
+    <ProductList msg="Products List Title" param="ok"/>
   </div>
 </template>
 
