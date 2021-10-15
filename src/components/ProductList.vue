@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>{{ msg }} hallooo</h1>
     <div class="products-wrapper">
       <router-link name="product-name" :to='`/product/${prod.id}`' class="product-block" v-for="(prod, idx) in products" :key="idx">
         <div class="product-image">

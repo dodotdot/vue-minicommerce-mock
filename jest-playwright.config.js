@@ -7,5 +7,6 @@ module.exports = {
         waitOnScheme: {
             delay: 1000, // wait 1 second for tcp connect 
         }
-    }
+    },
+    collectCoverage: true
 }
